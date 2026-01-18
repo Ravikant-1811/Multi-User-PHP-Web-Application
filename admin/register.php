@@ -108,12 +108,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <label class="label" for="password">Password</label>
                     <input class="input" id="password" name="password" type="password" required>
                 </div>
-                
+
                 <div class="field">
                     <label class="label" for="password_confirm">Confirm Password</label>
                     <input class="input" id="password_confirm" name="password_confirm" type="password" required>
                 </div>
-                
+
                 <button class="button" type="submit" style="margin-top:12px;">Register Admin</button>
             </form>
         <?php endif; ?>
