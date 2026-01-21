@@ -25,6 +25,7 @@ try {
     echo "Connection failed: " . $e->getMessage();
 }
 
+
 // Helper function to generate URLs with BASE_URL prefix
 function url($path = '')
 {
